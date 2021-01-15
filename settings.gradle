@@ -1,0 +1,3 @@
+include ':libIndicator'
+include ':app'
+rootProject.name = "IndicatorLib"

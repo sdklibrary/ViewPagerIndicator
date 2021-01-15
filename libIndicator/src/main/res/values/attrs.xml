@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="indicator_color" format="color" />
+    <attr name="indicator_colorSelect" format="color" />
+    <attr name="indicator_stroke" format="dimension" />
+    <attr name="indicator_strokeSelect" format="dimension" />
+    <attr name="indicator_strokeColor" format="color" />
+    <attr name="indicator_strokeColorSelect" format="color" />
+
+    <attr name="indicator_margin" format="dimension" />
+    <attr name="indicator_marginLeft" format="dimension" />
+    <attr name="indicator_marginTop" format="dimension" />
+    <attr name="indicator_marginRight" format="dimension" />
+    <attr name="indicator_marginBottom" format="dimension" />
+    <attr name="indicator_space" format="dimension" />
+    <attr name="indicator_clickEnable" format="boolean" />
+    <attr name="indicator_followScroll" format="boolean" />
+
+    <declare-styleable name="PointIndicatorView">
+        <attr name="indicator_radius" format="dimension" />
+        <attr name="indicator_color" />
+        <attr name="indicator_colorSelect" />
+        <attr name="indicator_stroke" />
+        <attr name="indicator_strokeSelect" />
+        <attr name="indicator_strokeColor" />
+        <attr name="indicator_strokeColorSelect" />
+        <attr name="indicator_margin" />
+        <attr name="indicator_marginLeft" />
+        <attr name="indicator_marginTop" />
+        <attr name="indicator_marginRight" />
+        <attr name="indicator_marginBottom" />
+        <attr name="indicator_space" />
+        <attr name="indicator_clickEnable" />
+        <attr name="indicator_followScroll" />
+    </declare-styleable>
+
+    <declare-styleable name="LineIndicatorView">
+        <attr name="indicator_roundRadius" format="dimension" />
+        <attr name="indicator_lineWidth" format="dimension" />
+        <attr name="indicator_lineWidthSelect" format="dimension" />
+        <attr name="indicator_lineHeight" format="dimension" />
+        <attr name="indicator_color" />
+        <attr name="indicator_colorSelect" />
+        <attr name="indicator_margin" />
+        <attr name="indicator_marginLeft" />
+        <attr name="indicator_marginTop" />
+        <attr name="indicator_marginRight" />
+        <attr name="indicator_marginBottom" />
+        <attr name="indicator_space" />
+        <attr name="indicator_followScroll" />
+    </declare-styleable>
+
+</resources>
